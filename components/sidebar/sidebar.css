@@ -1,0 +1,16 @@
+aside {
+  width: 200px;
+  background-color: #ffffff;
+  height: 80vh;
+  padding: 20px;
+}
+
+aside ul {
+  list-style: none;
+  padding: 0;
+}
+
+aside li {
+  margin: 15px 0;
+  cursor: pointer;
+}
