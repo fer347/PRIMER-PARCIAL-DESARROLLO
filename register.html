@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<title>Crear Cuenta</title>
+
+<link rel="stylesheet" href="css/register.css">
+
+</head>
+
+<body>
+
+<div class="register-container">
+
+<h1 class="title">Crear cuenta</h1>
+
+<form id="registerForm">
+
+<div class="input-group">
+
+<label for="newUser">Usuario</label>
+<input type="text" id="newUser">
+
+</div>
+
+<div class="input-group password-box">
+
+<label for="newPassword">Contraseña</label>
+
+<input type="password" id="newPassword">
+
+<button type="button" class="toggle-password" onclick="togglePassword()">👁</button>
+
+</div>
+
+<button class="register-btn" type="submit">
+Crear cuenta
+</button>
+
+<p id="mensaje"></p>
+
+</form>
+
+<p class="volver">
+¿Ya tienes cuenta?
+<a href="login.html">Iniciar sesión</a>
+</p>
+
+</div>
+
+<script src="js/register.js"></script>
+
+</body>
+</html>
