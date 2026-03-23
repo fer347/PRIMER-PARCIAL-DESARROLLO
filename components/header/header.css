@@ -2,13 +2,51 @@ header {
   background-color: #ff1e3c;
   color: white;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 15px 20px;
+  padding: 25px 40px;
+  position: relative;
+}
+.menu {
+  position: absolute;
+  left: 40px;
+  font-size: 24px;
+}
+
+.icons {
+  position: absolute;
+  right: 40px;
   font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
 .logo {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 50px;
+  letter-spacing: 8px;
+}
+
+.login-btn-header {
+  background-color: #ff1e3c; /* 🔥 rojo principal */
+  color: white; /* texto blanco */
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 14px;
   font-weight: bold;
-  letter-spacing: 2px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* hover */
+.login-btn-header:hover {
+  background-color: #e01834; /* rojo más oscuro */
+  transform: scale(1.05);
 }
