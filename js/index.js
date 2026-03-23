@@ -1,4 +1,4 @@
-// Detecta la profundidad de la página automáticamente
+
 function getBase() {
   const path = window.location.pathname;
   if (path.includes("Documento-sidebar/productos")) return "/";

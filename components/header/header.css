@@ -33,8 +33,8 @@ header {
 }
 
 .login-btn-header {
-  background-color: #ff1e3c; /* 🔥 rojo principal */
-  color: white; /* texto blanco */
+  background-color: #ff1e3c; 
+  color: white;
   padding: 8px 16px;
   border-radius: 20px;
   text-decoration: none;
@@ -45,8 +45,8 @@ header {
   transition: all 0.3s ease;
 }
 
-/* hover */
+
 .login-btn-header:hover {
-  background-color: #e01834; /* rojo más oscuro */
+  background-color: #e01834; 
   transform: scale(1.05);
 }
