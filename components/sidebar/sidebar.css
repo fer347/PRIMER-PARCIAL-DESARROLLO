@@ -11,12 +11,12 @@
   padding: 20px;
 }
 
-/* cuando abre */
+
 #sidebar.active {
   transform: translateX(0);
 }
 
-/* 🔥 TEXTO */
+
 #sidebar ul {
   list-style: none;
   padding: 0;
@@ -28,7 +28,7 @@
 }
 
 #sidebar a {
-  color: black !important; /* 🔥 FORZADO */
+  color: black !important; 
   font-size: 18px;
   text-decoration: none;
   display: block;
@@ -44,7 +44,7 @@
 .sidebar-content a:hover {
   background-color: #ff1e3c;
   color: white;
-  transform: translateX(5px); /* se mueve ligeramente */
+  transform: translateX(5px); 
 }
 
 .sidebar-content a:hover {
