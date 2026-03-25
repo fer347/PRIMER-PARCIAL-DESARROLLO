@@ -8,7 +8,7 @@ body {
   color: #111;
 }
 
-/* HEADER */
+
 .header {
   background: #e53030;
   padding: 22px 30px;
@@ -23,7 +23,7 @@ body {
   letter-spacing: 5px;
 }
 
-/* GRID */
+
 .productos {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -31,7 +31,7 @@ body {
   padding: 28px;
 }
 
-/* CARD */
+
 .card {
   background: #fff;
   border-radius: 4px;
@@ -46,7 +46,7 @@ body {
   border-color: #e53030;
 }
 
-/* IMAGEN */
+
 .card-img-wrap {
   position: relative;
   overflow: hidden;
@@ -61,7 +61,7 @@ body {
 }
 .card:hover img { transform: scale(1.05); }
 
-/* BADGE */
+
 .badge {
   position: absolute;
   top: 10px; left: 10px;
@@ -74,7 +74,7 @@ body {
   text-transform: uppercase;
 }
 
-/* CUERPO */
+
 .card-body {
   padding: 14px 16px 16px;
   border-top: 3px solid #e53030;
@@ -94,7 +94,7 @@ body {
   color: #e53030;
 }
 
-/* BOTÓN */
+
 .btn-agregar {
   margin-top: 10px;
   width: 100%;
